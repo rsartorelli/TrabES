@@ -3,13 +3,19 @@ Public class A {
 	
 	private int A1;
 	private float A2;
-	private String A3, Aramo4;
+	private String A3, Aramo4, Aprinc4;
 	
 	
 	public float Soma(){
 		return A1+A2;
 	}
 	
+	public String getAprinc4(){
+		return Aprinc4;
+	}
+	public void setAprinc4(String a4){
+		Aprinc4 = a4;
+	}
 	public String getAramo4(){
 		return Aramo4;
 	}
