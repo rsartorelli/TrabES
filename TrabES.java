@@ -6,6 +6,11 @@ Public class A {
 	private String A3;
 	
 	
+	public float Soma(){
+		return A1+A2;
+	}
+	
+	
 	public Int getA1(){
 		return A1;
 	}	
@@ -25,5 +30,6 @@ Public class A {
 	public void setA3(String a3){
 		A3 = a3;
 	}
+	
 	
 }
